@@ -14,8 +14,13 @@ Here we will use first page of popular TV Show, Movies Now Playing, Movies Top R
 Here following stepes will be followed:
 
 Download the webpage using requests
+
 parse the HTML source code using beautifulSoup
+
 Extract viewer's rating stars, titles of the movies and TV Shows, and it's releasing dates
+
 compile extracted information into python list and dictionaries
+
 Extract and combine data from the multiple page to give it 100 rows because each page having only 20 movies or tv shows details are available.
+
 save the extracted information to a csv file
